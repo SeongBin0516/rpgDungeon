@@ -12,7 +12,7 @@ namespace ConsoleApp4
         static void Main()
         {
             // 플레이어 캐릭터 초기 설정
-            Character player = new Character("Chad", 100, 15, 5, 10, 2500);
+            Character player = new Character("Chad", 100, 15, 5, 10, 1500);
             player.Inventory = new Inventory();
             Shop shop = new Shop(player);
             Inn inn = new Inn(player);
